@@ -22,8 +22,8 @@ if [ ! -f "artisan" ]; then
 
     echo "Downloading the Theme you picked"
     mkdir -p tempdown && cd tempdown && git clone https://github.com/DukeVenator/SpiralwebTheme.git .
-    cp -r site/public ..
-    cp -r site/resources ..
+    cp -r Site/public ..
+    cp -r Site/resources ..
 
     echo "Files have been copied over!"
     sleep 2
