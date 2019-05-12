@@ -1,6 +1,6 @@
 <?php
     header("Content-type: text/css; charset: UTF-8");
-   $color1 = "#ffffff";
+   $color1 = "#898989";
    $color2 = "#eaeaea";
    $background = "https://i.imgur.com/jAzxKtg.jpg";
 ?>
