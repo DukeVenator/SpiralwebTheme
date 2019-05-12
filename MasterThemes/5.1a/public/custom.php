@@ -1,7 +1,7 @@
 <?php
     header("Content-type: text/css; charset: UTF-8");
-   $color1 = "#2bac60";
-   $color2 = "#2bac60";
+   $color1 = "#ffffff";
+   $color2 = "#eaeaea";
    $background = "https://i.imgur.com/jAzxKtg.jpg";
 ?>
 .col-lg-6 {
