@@ -30,7 +30,7 @@ $(document).ready(function () {
             allowOutsideClick: true,
             closeOnConfirm: false,
             confirmButtonText: 'Delete Schedule',
-            confirmButtonColor: '#d9534f',
+            confirmButtonColor: '#1d1d1d',
             showLoaderOnConfirm: true
         }, function () {
             $.ajax({

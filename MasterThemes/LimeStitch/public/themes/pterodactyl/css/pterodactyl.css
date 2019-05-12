@@ -25,7 +25,7 @@ THEME EDITED BY FONIX/WILL
  @import 'checkbox.css';
 
 .login-page {
-    background: #1e861d;
+    background: #1d1d1d;
 }
 
 #login-position-elements {
@@ -116,8 +116,8 @@ THEME EDITED BY FONIX/WILL
 }
 
 code {
-    background-color: #393d40;
-    color: #eaeaea;
+    background-color: #eef1f6;
+    color: #596981;
     border-radius: 2px;
     padding-left: 4px;
     padding-right: 4px;
@@ -245,7 +245,7 @@ li.select2-results__option--highlighted[aria-selected="false"] > .user-block > .
 }
 
 .img-bordered-xs {
-    border: 1px solid #3a3b3c;
+    border: 1px solid #d2d6de;
     padding: 1px;
 }
 
@@ -259,13 +259,13 @@ span[aria-labelledby="select2-pUserId-container"] {
 
 .alert-danger {
     color: #ffffff !important;
-    background: #d64242 !important;
-    border: 1px solid #841d1d;
+    background: #1d1d1d !important;
+    border: 1px solid #1d1d1d;
 }
 
 .alert-info {
     color: #ffffff !important;
-    background: #828282 !important;
+    background: #408fec !important;
     border: 1px solid #1055a5;
 }
 
@@ -282,7 +282,7 @@ span[aria-labelledby="select2-pUserId-container"] {
 }
 
 .callout-slim a {
-    color: #ccc !important;
+    color: #555 !important;
 }
 
 .bg-purple {
@@ -290,14 +290,14 @@ span[aria-labelledby="select2-pUserId-container"] {
 }
 
 .label-default {
-    background-color: #393d40 !important;
+    background-color: #eef1f6 !important;
 }
 
 .callout.callout-info.callout-slim {
     border: 1px solid #1055a5 !important;
     border-left: 5px solid #1055a5 !important;
     border-right: 5px solid #1055a5 !important;
-    color: #cecece !important;
+    color: #777 !important;
     background: transparent !important;
 }
 
@@ -305,7 +305,7 @@ span[aria-labelledby="select2-pUserId-container"] {
     border: 1px solid #c23321 !important;
     border-left: 5px solid #c23321 !important;
     border-right: 5px solid #c23321 !important;
-    color: #cecece !important;
+    color: #777 !important;
     background: transparent !important;
 }
 
@@ -313,7 +313,7 @@ span[aria-labelledby="select2-pUserId-container"] {
     border: 1px solid #c87f0a !important;
     border-left: 5px solid #c87f0a !important;
     border-right: 5px solid #c87f0a !important;
-    color: #cecece !important;
+    color: #777 !important;
     background: transparent !important;
 }
 
@@ -321,7 +321,7 @@ span[aria-labelledby="select2-pUserId-container"] {
     border: 1px solid #00733e !important;
     border-left: 5px solid #00733e !important;
     border-right: 5px solid #00733e !important;
-    color: #cecece !important;
+    color: #777 !important;
     background: transparent !important;
 }
 
@@ -329,7 +329,7 @@ span[aria-labelledby="select2-pUserId-container"] {
     border: 1px solid #eee !important;
     border-left: 5px solid #eee !important;
     border-right: 5px solid #eee !important;
-    color: #cecece !important;
+    color: #777 !important;
     background: transparent !important;
 }
 
@@ -340,7 +340,7 @@ span[aria-labelledby="select2-pUserId-container"] {
 .select2-container{ width: 100% !important; }
 
 .nav-tabs-custom > .nav-tabs > li:hover {
-    border-top-color:#ababab;
+    border-top-color:#1d1d1d;
 }
 
 .nav-tabs-custom > .nav-tabs > li.active.tab-danger, .nav-tabs-custom > .nav-tabs > li.tab-danger:hover {
@@ -393,7 +393,7 @@ span[aria-labelledby="select2-pUserId-container"] {
 }
 
 .btn.active, .btn.active.focus {
-    background-color: #828282;
+    background-color: #408fec;
 }
 
 .strong {
@@ -406,7 +406,7 @@ span[aria-labelledby="select2-pUserId-container"] {
 }
 
 tr:hover + tr.server-description {
-    background-color: rgba(80, 80, 80, 0.32) !important;
+    background-color: #f5f5f5 !important;
 }
 
 .login-corner-info {
@@ -454,12 +454,12 @@ label.control-label > span {
     font-size: 80%;
     font-weight: 400;
     font-style: italic;
-    color: #dd4b39;
+    color: #1d1d1d;
 }
 
 label.control-label > span.field-required:before {
     content: "required";
-    color: #dd4b39;
+    color: #1d1d1d;
 }
 
 label.control-label > span.field-optional:before {

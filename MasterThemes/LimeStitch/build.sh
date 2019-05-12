@@ -18,12 +18,12 @@ if [ ! -f "artisan" ]; then
     apt install zip -y 2> /dev/null
 
     echo "Backing up previous panel files in the case that something goes wrong!"
-    zip -r PterodactylBackup-$(date +"%Y-%m-%d").zip public resources 2> /dev/null
+    zip -r PterodactylBackup-$(date +"%Y-%m-%d").zip public resources
 
     echo "Downloading the Theme you picked"
     mkdir -p tempdown && cd tempdown && git clone https://github.com/TheFonix/Pterodactyl-Themes.git .
-    cp -r MasterThemes/LimeStitch/public ..
-    cp -r MasterThemes/LimeStitch/resources ..
+    cp -r MasterThemes/NothingButGraphite/public ..
+    cp -r MasterThemes/NothingButGraphite/resources ..
 
     echo "Files have been copied over!"
     sleep 2

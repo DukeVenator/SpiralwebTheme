@@ -41,7 +41,7 @@
     margin-left: -20px;
     border: 1px solid #cccccc;
     border-radius: 3px;
-    background-color: rgba(14, 58, 20, 0.63);
+    background-color: #fff;
     -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
     -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
     transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
@@ -57,7 +57,7 @@
     padding-left: 3px;
     padding-top: 1px;
     font-size: 11px;
-    color: #eee;
+    color: #555555;
 }
 .checkbox input[type="checkbox"] {
     opacity: 0;
@@ -85,15 +85,15 @@
     margin-top: 0;
 }
 .checkbox-primary input[type="checkbox"]:checked + label::before {
-    background-color: #424242;
-    border-color: #eee;
+    background-color: #428bca;
+    border-color: #428bca;
 }
 .checkbox-primary input[type="checkbox"]:checked + label::after {
     color: #fff;
 }
 .checkbox-danger input[type="checkbox"]:checked + label::before {
-    background-color: #d9534f;
-    border-color: #d9534f;
+    background-color: #1d1d1d;
+    border-color: #1d1d1d;
 }
 .checkbox-danger input[type="checkbox"]:checked + label::after {
     color: #fff;
@@ -137,7 +137,7 @@
     margin-left: -20px;
     border: 1px solid #cccccc;
     border-radius: 50%;
-    background-color: rgba(14, 58, 20, 0.63);
+    background-color: #fff;
     -webkit-transition: border 0.15s ease-in-out;
     -o-transition: border 0.15s ease-in-out;
     transition: border 0.15s ease-in-out;
@@ -152,7 +152,7 @@
     top: 3px;
     margin-left: -20px;
     border-radius: 50%;
-    background-color: #424242;
+    background-color: #555555;
     -webkit-transform: scale(0, 0);
     -ms-transform: scale(0, 0);
     -o-transform: scale(0, 0);
@@ -186,22 +186,22 @@
     margin-top: 0;
 }
 .radio-primary input[type="radio"] + label::after {
-    background-color: #424242;
+    background-color: #428bca;
 }
 .radio-primary input[type="radio"]:checked + label::before {
-    border-color: #eee;
+    border-color: #428bca;
 }
 .radio-primary input[type="radio"]:checked + label::after {
-    background-color: #424242;
+    background-color: #428bca;
 }
 .radio-danger input[type="radio"] + label::after {
-    background-color: #d9534f;
+    background-color: #1d1d1d;
 }
 .radio-danger input[type="radio"]:checked + label::before {
-    border-color: #d9534f;
+    border-color: #1d1d1d;
 }
 .radio-danger input[type="radio"]:checked + label::after {
-    background-color: #d9534f;
+    background-color: #1d1d1d;
 }
 .radio-info input[type="radio"] + label::after {
     background-color: #5bc0de;

@@ -36,7 +36,7 @@ let serversChart = new Chart($('#servers_chart'), {
         datasets: [
             {
                 label: 'Servers',
-                backgroundColor: ['#51B060', '#E08E0B'],
+                backgroundColor: ['#51B060', '#1d1d1d'],
                 data: [activeServers, Pterodactyl.suspendedServers]
             }
         ]
@@ -50,7 +50,7 @@ let statusChart = new Chart($('#status_chart'), {
         datasets: [
             {
                 label: '',
-                backgroundColor: ['#51B060', '#b7b7b7', '#E08E0B', '#ff0000'],
+                backgroundColor: ['#51B060', '#b7b7b7', '#1d1d1d', '#ff0000'],
                 data: [0,0,0,0]
             }
         ]
