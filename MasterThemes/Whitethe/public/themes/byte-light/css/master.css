@@ -1,0 +1,36 @@
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: transparent;
+}
+
+
+.skin-blue .main-header .logo{
+    background-color: #753a88;
+}
+
+
+.skin-blue .main-header .logo:hover {
+    background-color: #753a88;
+}
+
+.skin-blue .sidebar-menu>li.header {
+    color: white;
+    background: #753a88;
+    border-top: 1px solid black;
+}
+
+.skin-blue .sidebar-menu>li.active>a {
+    border-left-color: #cc2b5e;
+}
+
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a{
+    color: white;
+}
+
+.select2-container{
+color: black;
+}
+.skin-blue .main-header .navbar{
+background: #cc2b5e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #753a88, #cc2b5e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

@@ -1,0 +1,113 @@
+.main-footer {
+    background: none;
+    padding: 15px;
+    color: white;
+    border-top: 1px solid #cc2b5e;
+}
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: transparent;
+}
+
+
+.skin-blue .main-header .logo{
+    background-color: #753a88;
+}
+
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side{
+        background-color: #151719;
+}
+
+body, .content-wrapper{
+    background-color: #0E0F10;
+    color:#DEDEDE;
+}
+
+.form-control, .btn-default, .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control{
+    background-color: rgba(0,0,0,0.5);
+    border-color: rgba(0,0,0,0.1);
+    color: #DEDEDE;
+}
+
+code{
+    background-color: rgba(0,0,0,0.5);
+    color: #DEDEDE
+}
+
+
+.box{
+    background-color: #23272A !important;
+    border-top: none;
+}
+
+.server-description{
+    background-color: transparent !important;
+}
+
+
+tr, td{
+    background: transparent !important;
+}
+.table:hover ,table:hover, .table-hover:hover{
+    background-color: transparent;
+    background: transparent;
+}
+
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+border-top: 0 !important;
+}
+
+.box-header{
+color: #DEDEDE;
+}
+
+.box .overlay, .overlay-wrapper .overlay{
+    background: rgba(0,0,0,0.7);
+}
+
+.box .overlay > .fa, .overlay-wrapper .overlay > .fa{
+    color: #DEDEDE;
+}
+.box-footer{
+    background-color: #23272A !important;
+    border-top: none;
+}
+
+.box-header.with-border{
+    border-bottom: none;
+}
+
+.table > thead > tr > th{
+    border-bottom: none;
+}
+
+.skin-blue .main-header .logo:hover {
+    background-color: #753a88;
+}
+
+.skin-blue .sidebar-menu>li.header {
+    color: white;
+    background: #753a88;
+    border-top: 1px solid black;
+}
+
+.skin-blue .sidebar-menu>li.active>a {
+    border-left-color: #cc2b5e;
+}
+
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a{
+    color: white;
+}
+
+.select2-container{
+color: black;
+}
+
+tr:hover + tr.server-description {
+    background-color: transparent!important;
+}
+.skin-blue .main-header .navbar{
+background: #cc2b5e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #753a88, #cc2b5e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

@@ -1,0 +1,53 @@
+.login-page {
+    background: transparent;
+}
+
+body{
+    background: transparent;
+}
+
+body::before {
+    background: url('../bg.jpg') center center no-repeat;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: center;
+    background-size: auto auto;
+    content: '';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -999999;
+}
+
+body::after {
+    background: linear-gradient(50deg, #4160fb, #FC466B);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: center;
+    background-size: auto auto;
+    content: '';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -999999;
+    opacity: .5;
+}
+
+
+.pterodactyl-login-box {
+    background: #23272A;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+
