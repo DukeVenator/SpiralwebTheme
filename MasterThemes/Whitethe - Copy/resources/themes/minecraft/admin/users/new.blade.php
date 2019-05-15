@@ -40,13 +40,13 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="name_first" class="control-label">Client First Name</label>
+                        <label for="name_first" class="control-label">User First Name</label>
                         <div>
                             <input type="text" autocomplete="off" name="name_first" value="{{ old('name_first') }}" class="form-control" />
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="name_last" class="control-label">Client Last Name</label>
+                        <label for="name_last" class="control-label">User Last Name</label>
                         <div>
                             <input type="text" autocomplete="off" name="name_last" value="{{ old('name_last') }}" class="form-control" />
                         </div>

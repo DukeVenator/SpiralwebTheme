@@ -70,7 +70,7 @@ return [
         'update_identity' => 'Update Identity',
         'username_help' => 'Your username must be unique to your account, and may only contain the following characters: :requirements.',
         'language' => 'Language',
-        'themes' => 'Theme Selector',
+        'themes' => 'Theme Selector Spiralcrafters Named Themes recommended',
     ],
     'security' => [
         'session_mgmt_disabled' => 'The Wizards have not enabled the ability to manage mortals sessions via this interface.',

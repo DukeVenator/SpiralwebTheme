@@ -197,7 +197,7 @@
 
                         var that = this;
                         swal({
-                            title: 'Wait dont leave me here all alone',
+                            title: 'Do you want to log out?',
                             type: 'warning',
                             showCancelButton: true,
                             confirmButtonColor: '#d9534f',

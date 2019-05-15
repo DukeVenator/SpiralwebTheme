@@ -21,7 +21,7 @@
         <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
         <meta name="msapplication-config" content="/favicons/browserconfig.xml">
         <meta name="theme-color" content="#2bac60">
-	
+
         @include('layouts.scripts')
 
         @section('scripts')
@@ -34,7 +34,7 @@
 			            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
             <link rel="stylesheet" href="/custom.php">
-	
+
             <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -45,7 +45,7 @@
         <div class="wrapper">
             <header class="main-header">
 <a href="{{ route('index') }}" class="logo">
-                    <img src="/logo.png" style="height: 100%; width: 100%; object-fit: contain"> 
+                    <img src="/logo.png" style="height: 100%; width: 100%; object-fit: contain">
                 </a>
                <nav class="navbar navbar-static-top">
                     <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
@@ -81,7 +81,7 @@
                     </div>
                 </nav>
             </header>
-			
+
             <aside class="main-sidebar">
                 <section class="sidebar">
                     <ul class="sidebar-menu tree" data-widget="tree">
@@ -236,7 +236,7 @@
                 </section>
             </div>
             <footer class="main-footer">
-                Copyright &copy; 2018 - <a href="https://www.mc-market.org/resources/8394/">5.1a</a>.
+                Copyright &copy; 2018 - {{ date('Y') }} <a href="https://spiralcrafters.com/">Spiralcrafters.com</a>. Huge Shoutout to the Terra team: <a href="To do">Terra</a>
             </footer>
             @if(isset($sidebarServerList))
                 <aside class="control-sidebar control-sidebar-dark">

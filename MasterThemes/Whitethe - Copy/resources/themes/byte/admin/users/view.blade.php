@@ -40,13 +40,13 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="registered" class="control-label">Client First Name</label>
+                        <label for="registered" class="control-label">User First Name</label>
                         <div>
                             <input readonly type="text" name="name_first" value="{{ $user->name_first }}" class="form-control form-autocomplete-stop">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="registered" class="control-label">Client Last Name</label>
+                        <label for="registered" class="control-label">User Last Name</label>
                         <div>
                             <input readonly type="text" name="name_last" value="{{ $user->name_last }}" class="form-control form-autocomplete-stop">
                         </div>

@@ -38,11 +38,11 @@
         <div class="container">
             <div id="login-position-elements">
                 <div class="login-logo">
-                    {{ config('app.name', 'Pterodactyl') }}
+                    <span class="logo-lg"><img src="/LogoTextTiny.png" style="height: 100%; width: 100%; object-fit: contain"></span>
                 </div>
                 @yield('content')
                 <p class="small login-copyright text-center">
-                    Copyright &copy; 2015 - {{ date('Y') }} <a href="https://pterodactyl.io/" target="_blank">Pterodactyl Software</a>.<br />
+                  Copyright &copy; 2018 - {{ date('Y') }} <a href="https://spiralcrafters.com/">Spiralcrafters.com</a>. Huge Shoutout to the Terra team: <a href="To do">Terra</a>.<br />
                 </p>
             </div>
         </div>

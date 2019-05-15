@@ -27,7 +27,7 @@ return [
     | Theme::set('theme-name');
     |--------------------------------------------------------------------------
     */
-    'default' => env('APP_THEME', 'bw'),
+    'default' => env('APP_THEME', 'spiralcrafters'),
 
     /*
     |--------------------------------------------------------------------------
@@ -59,6 +59,16 @@ return [
             'views-path' => 'pterodactyl',
             'asset-path' => 'themes/pterodactyl',
         ],
+        'spiralcrafters' => [
+            'extends' => null,
+            'views-path' => 'spiralcrafters',
+            'asset-path' => 'themes/spiralcrafters',
+        ],
+        'spiralcrafters-dark' => [
+            'extends' => null,
+            'views-path' => 'spiralcrafters',
+            'asset-path' => 'themes/spiralcraftersdark',
+        ],
         'byte-dark' => [
             'extends' => null,
             'views-path' => 'byte',
@@ -82,7 +92,7 @@ return [
         'blue' => [
             'extends' => null,
             'views-path' => 'master',
-            'asset-path' => 'themes/blue',
+            'asset-path' => 'themes/spiralcrafters',
         ],
         'minecraft' => [
             'extends' => null,
