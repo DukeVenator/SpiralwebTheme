@@ -7,29 +7,29 @@ return [
         'home' => 'Go Home',
         '403' => [
             'header' => 'Forbidden',
-            'desc' => 'You do not have permission to access this resource on this server.',
+            'desc' => 'A magical field is stopping you as you do not have permission to access this area.',
         ],
         '404' => [
             'header' => 'File Not Found',
-            'desc' => 'We were unable to locate the requested resource on the server.',
+            'desc' => 'The Minions are unable to find this file.',
         ],
         'installing' => [
             'header' => 'Server Installing',
-            'desc' => 'The requested server is still completing the install process. Please check back in a few minutes, you should receive an email as soon as this process is completed.',
+            'desc' => 'Excellent Choice the minions are setting the new realm up for you. Please check back in a few minutes, The minions will head out on the email train to inform you as soon as this process is completed.',
         ],
         'suspended' => [
             'header' => 'Server Suspended',
-            'desc' => 'This server has been suspended and cannot be accessed.',
+            'desc' => 'This realm has been suspended and cannot be accessed.',
         ],
         'maintenance' => [
             'header' => 'Node Under Maintenance',
             'title' => 'Temporarily Unavailable',
-            'desc' => 'This node is under maintenance, therefore your server can temporarily not be accessed.',
+            'desc' => 'This Realm Holder is under maintenance, therefore your Realm can temporarily not be accessed.',
         ],
     ],
     'index' => [
         'header' => 'Your Servers',
-        'header_sub' => 'Servers you have access to.',
+        'header_sub' => 'The Realms you have access to.',
         'list' => 'Server List',
     ],
     'api' => [
@@ -37,8 +37,8 @@ return [
             'list' => 'Your Keys',
             'header' => 'Account API',
             'header_sub' => 'Manage access keys that allow you to perform actions against the panel.',
-            'create_new' => 'Create New API key',
-            'keypair_created' => 'An API key has been successfully generated and is listed below.',
+            'create_new' => 'Create New magic API key',
+            'keypair_created' => 'A new magical API key has been successfully generated and is listed below.',
         ],
         'new' => [
             'header' => 'New API Key',
@@ -55,8 +55,8 @@ return [
         ],
     ],
     'account' => [
-        'details_updated' => 'Your account details have been successfully updated.',
-        'invalid_password' => 'The password provided for your account was not valid.',
+        'details_updated' => 'The record books have been updated for you.',
+        'invalid_password' => 'The magical password you have provided for your account was not valid.',
         'header' => 'Your Account',
         'header_sub' => 'Manage your account details.',
         'update_pass' => 'Update Password',
@@ -73,7 +73,7 @@ return [
         'themes' => 'Theme Selector',
     ],
     'security' => [
-        'session_mgmt_disabled' => 'Your host has not enabled the ability to manage account sessions via this interface.',
+        'session_mgmt_disabled' => 'The Wizards have not enabled the ability to manage mortals sessions via this interface.',
         'header' => 'Account Security',
         'header_sub' => 'Control active sessions and 2-Factor Authentication.',
         'sessions' => 'Active Sessions',
@@ -84,7 +84,7 @@ return [
         '2fa_disabled' => '2-Factor Authentication is disabled on your account! You should enable 2FA in order to add an extra level of protection on your account.',
         'enable_2fa' => 'Enable 2-Factor Authentication',
         '2fa_qr' => 'Configure 2FA on Your Device',
-        '2fa_checkpoint_help' => 'Use the 2FA application on your phone to take a picture of the QR code to the left, or manually enter the code under it. Once you have done so, generate a token and enter it below.',
+        '2fa_checkpoint_help' => 'Use the 2FA application on your magical scroll called a P.H.O.N.E to take a picture of the QR code to the left, or manually enter the code under it. Once you have done so, generate a token and enter it below.',
         '2fa_disable_error' => 'The 2FA token provided was not valid. Protection has not been disabled for this account.',
     ],
 ];

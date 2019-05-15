@@ -71,23 +71,38 @@ return [
         ],
         'space' => [
             'extends' => null,
-            'views-path' => 'universal',
-            'asset-path' => 'themes/space',
-        ],
-        'space2' => [
-            'extends' => null,
-            'views-path' => 'universal2',
-            'asset-path' => 'themes/space',
-        ],
-        'space3' => [
-            'extends' => null,
-            'views-path' => 'byte',
+            'views-path' => 'master',
             'asset-path' => 'themes/space',
         ],
         'bw' => [
             'extends' => null,
             'views-path' => 'bw',
             'asset-path' => 'themes/bw',
+        ],
+        'blue' => [
+            'extends' => null,
+            'views-path' => 'master',
+            'asset-path' => 'themes/blue',
+        ],
+        'minecraft' => [
+            'extends' => null,
+            'views-path' => 'minecraft',
+            'asset-path' => 'themes/minecraft',
+        ],
+        'green' => [
+            'extends' => null,
+            'views-path' => 'master',
+            'asset-path' => 'themes/green',
+        ],
+        'orange' => [
+            'extends' => null,
+            'views-path' => 'master',
+            'asset-path' => 'themes/orange',
+        ],
+        'red' => [
+            'extends' => null,
+            'views-path' => 'master',
+            'asset-path' => 'themes/red',
         ],
 
     ],

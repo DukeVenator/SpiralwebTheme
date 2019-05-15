@@ -2,7 +2,7 @@
     header("Content-type: text/css; charset: UTF-8");
    $color1 = "#898989";
    $color2 = "#eaeaea";
-   $background = "https://i.imgur.com/jAzxKtg.jpg";
+   $background = "/themes/minecraft/images/backg-tile.jpg";
 ?>
 .col-lg-6 {
     width: 25%!important;

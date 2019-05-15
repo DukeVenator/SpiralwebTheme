@@ -81,7 +81,7 @@ body {
 }
 .content-wrapper {
 	min-height: 100%;
-	background-image: url("/themes/pterodactyl/images/backg-tile.jpg");
+	background-image: url("/themes/space/images/backg-tile.jpg");
 	z-index: 800
 }
 .main-footer {
