@@ -64,7 +64,6 @@ class ServerInstalled extends Notification implements ShouldQueue, ReceivesEvent
             ->greeting('Greetings ' . $this->user->username . '.')
             ->line('Our Wizards have finished the arcane magic to tehter your realm! Your good to go.')
             ->line('Realm Name: ' . $this->server->name)
-            ->line('Oh and if it works yay if not reply to this email and ask for help!')
             ->action('Login and Begin Using', route('index'));
     }
 }

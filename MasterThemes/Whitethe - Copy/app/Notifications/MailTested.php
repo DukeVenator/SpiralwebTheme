@@ -28,7 +28,6 @@ class MailTested extends Notification
         return (new MailMessage)
             ->subject('Spiralcrafters Minion Test Train')
             ->greeting('Hello ' . $this->user->name . '!')
-            ->line('Please consider replying to this email to help us build you a better experience.. also to let us know this works ;)');
             ->line('This is a test of the Spiralcrafters Minion Support Train. You\'re good to go!');
     }
 }

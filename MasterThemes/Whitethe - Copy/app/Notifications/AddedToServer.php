@@ -56,7 +56,6 @@ class AddedToServer extends Notification implements ShouldQueue
             ->greeting('Hello ' . $this->server->user . '!')
             ->line('You have been added as a subuser for the following realms, allowing you magical control over the realm.')
             ->line('Server Name: ' . $this->server->name)
-            ->line('Please consider replying to this email to help us build you a better experience.. also to let us know this works ;)');
             ->action('Visit Server', route('server.index', $this->server->uuidShort));
     }
 }

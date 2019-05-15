@@ -57,7 +57,6 @@ class RemovedFromServer extends Notification implements ShouldQueue
             ->greeting('Greetings ' . $this->server->user . '.')
             ->line('Oh noes! You have been removed as a subuser for the following realm.')
             ->line('Realm Name: ' . $this->server->name)
-            ->line('if you like this email feel free to reply and we will read it!')
             ->action('Visit Panel', route('index'));
     }
 }
