@@ -114,6 +114,11 @@ return [
             'views-path' => 'master',
             'asset-path' => 'themes/red',
         ],
+        'mouse' => [
+            'extends' => null,
+            'views-path' => 'spiralcrafters',
+            'asset-path' => 'themes/mouse',
+        ],
 
     ],
 ];
